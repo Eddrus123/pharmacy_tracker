@@ -1,4 +1,4 @@
-```js
+
 const itemForm = document.getElementById('itemForm');
 const itemList = document.getElementById('itemList');
 
@@ -24,4 +24,4 @@ itemForm.addEventListener('submit', (e) => {
 function removeItem(button) {
   button.parentElement.remove();
 }
-```
+
